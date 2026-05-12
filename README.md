@@ -81,7 +81,7 @@ Motivated by upstream O&G inspection workflows. Dataset: CODEBRIM (COncrete DEfe
 | Inference (CPU) | ~45 ms | ~55 ms |
 | Training epochs | 20 | 20 |
 
-*Actual F1 values depend on dataset size and will be updated after training. See `outputs/metrics.json` for per-class scores.*
+*Actual F1 values depend on dataset size and will be updated after training.*
 
 **Per-class F1 (see `outputs/metrics.json` after running `evaluate.py`):**
 
@@ -141,7 +141,7 @@ curl -X POST http://localhost:8000/inspect \
      -F "file=@inspection_image.jpg"
 ```
 
-Response:
+Sample Response:
 ```json
 {
   "predicted_class": "crack",
@@ -207,7 +207,6 @@ Each run logs: model architecture, epochs, learning rate, batch size, per-epoch 
 
 ## Deployment — Hugging Face Spaces
 
-See `SETUP_GUIDE_FROM_SCRATCH.md` Part I for full Hugging Face Spaces deployment instructions.
 https://huggingface.co/spaces/BahbahTheGreat/pipeline-integrity-monitor
 
 
