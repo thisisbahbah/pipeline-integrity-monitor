@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/raw/
+data/processed/
+models/checkpoints/
+models/best_model.pth
+outputs/
+mlruns/
+logs/
+.DS_Store
+*.egg-info/
+dist/

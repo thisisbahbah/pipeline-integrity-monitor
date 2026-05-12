@@ -1,0 +1,26 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+torchvision==0.21.0+cpu
+
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic>=2.0
+
+streamlit
+plotly
+Pillow
+
+mlflow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+
+albumentations
+opencv-python-headless
+
+kaggle
+python-dotenv
+tqdm
