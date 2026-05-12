@@ -208,6 +208,7 @@ Each run logs: model architecture, epochs, learning rate, batch size, per-epoch 
 ## Deployment — Hugging Face Spaces
 
 See `SETUP_GUIDE_FROM_SCRATCH.md` Part I for full Hugging Face Spaces deployment instructions.
+https://huggingface.co/spaces/BahbahTheGreat/pipeline-integrity-monitor
 
 
 ---
